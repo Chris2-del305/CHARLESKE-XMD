@@ -35,7 +35,14 @@
       "description":"Enter yes for your bot to auto react",
       "value":"no",
       "required":false
+         },
+  "CHATBOT":
+    {
+      "description":"Enter yes for your bot to auto reply messages",
+      "value":"no",
+      "required":false
     },
+	  
 "ANTICALL":
     {
       "description":"Enter yes for your bot to auto reject calls",

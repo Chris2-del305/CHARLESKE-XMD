@@ -3,7 +3,7 @@ const { zokou } = require("../framework/zokou");
 const traduire = require("../framework/traduction");
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 
-const viewChannel = "🔔 *View Channel:* https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v";
+const viewChannel = "🔔 *View Channel:* https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K";
 
 // 🔹 ranime command
 zokou({
@@ -67,7 +67,7 @@ zokou({
 
 // 🔹 imdb command
 zokou({
-  nomCom: "imdb",
+  nomCom: "images",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms } = commandeOptions;
@@ -82,7 +82,7 @@ zokou({
     const imdbData = response.data;
 
     let imdbInfo = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
-    imdbInfo += " ``` 𝕀𝕄𝔻𝔹 𝕊𝔼𝔸ℝℂℍ```\n";
+    imdbInfo += " ``` CHARLESKE 𝕊𝔼𝔸ℝℂℍ```\n";
     imdbInfo += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
     imdbInfo += `🎬 Title: ${imdbData.Title}\n`;
     imdbInfo += `📅 Year: ${imdbData.Year}\n`;
@@ -127,9 +127,9 @@ zokou({
     const response = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${arg.join(" ")}&plot=full`);
     const imdbData = response.data;
 
-    let imdbInfo = "THANKS ALL FOR THE SUPPORT ITS ME ZEZE47-MD \n";
-    imdbInfo += " ``` ZEZE47-MD FILMS```\n";
-    imdbInfo += "*Made by Zeze Md*\n";
+    let imdbInfo = "THANKS ALL FOR THE SUPPORT ITS ME CHARLESKE XMD \n";
+    imdbInfo += " ``` CHARLES XMD FILMS```\n";
+    imdbInfo += "*Made by CHARLES XMD*\n";
     imdbInfo += `🎬 Title: ${imdbData.Title}\n`;
     imdbInfo += `📅 Year: ${imdbData.Year}\n`;
     imdbInfo += `⭐ Assessment: ${imdbData.Rated}\n`;
